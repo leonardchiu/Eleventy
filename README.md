@@ -4,4 +4,8 @@ This is a simple readme file
 
 ##Heading 2
 
-Updates in this line will cause conflict
+Modify again
+
+Updates in stages
+
+Even more updates
