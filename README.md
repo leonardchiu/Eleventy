@@ -4,4 +4,4 @@ This is a simple readme file
 
 ##Heading 2
 
-Somemore updates, more updates on the branch
+Another dev change this line of code at the master branch
