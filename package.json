@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leonardchiu/demo/issues"
   },
-  "homepage": "https://github.com/leonardchiu/demo#readme"
+  "homepage": "https://github.com/leonardchiu/demo#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
 }
