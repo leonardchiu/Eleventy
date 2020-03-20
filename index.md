@@ -1,5 +1,5 @@
 ---
-layout: default-header.njk
+layout: hero.njk
 ---
 
 ## Hello World, My name is Leonard Chiu. I am a programmer
