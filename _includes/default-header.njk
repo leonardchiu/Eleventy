@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,10 +9,8 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <div class="top-bar">
-      <div class="logo">
-        <img src="/assets/images/leonardchiu_logo.png" alt="leonardchiu" width="250">
-      </div>
+    <div class="top-bar ">
+        <img src="/assets/images/leonardchiu_logo.png" alt="leonardchiu" width="240">
       <div class="menu">
         <ul>
           <li>Home</li>
@@ -21,11 +21,12 @@
       </div>
     </div>
     <div class="main-content">
-      {% block hero %}
-
-      {% endblock hero %}
+{# Hero section extends here #}
+      {% block heros %}
+      {% endblock heros %}
+{# Inject services component here  #}
       {% block services %}
-      
+        {%include "/components/services.njk"%}
       {% endblock services %}
     </div>
     <footer>
@@ -45,6 +46,7 @@
           <div class="social">Twitter Follows</div>
         </div>
         <div class="footer-section">
+        <h3>Ask Me Anything</h3>
           <form action="">
             <label for="name">Name</label><br>
             <input type="text" for="name"><br>

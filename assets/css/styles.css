@@ -11,18 +11,19 @@
 
 	width: 80%;
 	margin: 0 auto;
+	height: auto;
 }
 
 li {
 	display: inline;
 	padding: 0px 20px;
-	line-height: 80px;
+	line-height: 70px;
 }
 
 .main-content {
 	margin: 0 auto;
 	/* width: 80%; */
-	padding: 50px 0px;
+	padding: 0px 0px;
 }
 
 footer {
@@ -55,6 +56,10 @@ footer {
 	padding: 20px 0px 0px 0px;
 }
 
+form {
+	padding-top: 20px;
+}
+
 input {
 	margin-bottom: 20px;
 	height: 30px;
@@ -71,6 +76,7 @@ input {
 	/* background-color: lightgreen; */
 	width: 100%;
 	position: relative;
+	margin: 0px 0px;
 }
 
 .hero-content {
@@ -87,7 +93,7 @@ input {
 	/* top: 21%; */
 	left: 10%;
 	bottom: 5px;
-	height: 80%;
+	height: 90%;
 }
 
 .hero-text {
@@ -112,8 +118,35 @@ input {
 	padding-left: 10px;
 }
 
-h2 {
-	color: orange;
+.services {
+	margin-bottom: 20px;
+}
+
+.services-content {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 50px 0px;
+}
+
+.services-section {
+	display: grid;
+	grid-template-areas: "title title" "fm pp";
+}
+
+.services-section h2 {
+	grid-area: title;
+	text-align: center;
+}
+
+.services-section img {
+	justify-self: center;
+	align-self: center;
+}
+
+.services-logo {
+	width: 80%;
 }
 
 .bg {
