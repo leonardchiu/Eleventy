@@ -2,9 +2,12 @@
 
 {% block hero %}
   <div class="hero">
-        <img src="/assets/images/hero_bg.jpg" alt="computer codes background" class="hero-bg">
+        <img src="{{ bgImage }}" alt="Hero Background" class="hero-bg">
     <div class="hero-content">
-      {# {{content | safe}} #}
+      <img src="{{ image }}" alt="Leonard Chiu">
+      <div class="hero-text">
+        {{content | safe}}
+      </div>
     </div>
   </div>
 {% endblock hero %}
