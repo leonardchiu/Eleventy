@@ -1,5 +1,5 @@
 ---
-layout: services.njk
+layout: default-header.njk
 ---
 
 # About me

@@ -1,5 +1,5 @@
 ---
-layout: hero.njk
+layout: default-header.njk
 image: "/assets/images/leonardchiuNoBG.png"
 bgImage: "/assets/images/hero_bg.jpg"
 ---
