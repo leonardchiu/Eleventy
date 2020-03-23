@@ -1,11 +1,15 @@
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addPassthroughCopy('assets');
+	eleventyConfig.addPassthroughCopy('src/site/assets');
 
 	return {
 		passthroughFileCopy: true,
 		dir: {
-			// input: 'src'
-			// layouts: '_layouts'
-		}
+			input: 'src/site',
+			output: 'index',
+			includes: 'templates'
+		},
+		templateFormat: [ 'html', 'md', 'njk' ],
+		htmlTemplateEngine: 'html',
+		markdownTemplateEngine: 'html'
 	};
 };

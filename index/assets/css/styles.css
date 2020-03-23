@@ -1,7 +1,21 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Muli', Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Muli';
+} */
+
+p {
+	font-family: 'PT Serif';
 }
 
 body {
@@ -151,6 +165,37 @@ input {
 
 .services-logo {
 	width: 80%;
+}
+
+.index-writeup {
+	background-color: #ededed;
+}
+
+.writeup-section {
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+	line-height: 1.4em;
+}
+
+.result-content {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 250px;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.result-heading {
+	font-size: 100px;
 }
 
 .bg {
